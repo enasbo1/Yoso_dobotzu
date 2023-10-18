@@ -1,0 +1,1 @@
+elements=["feux","eau","foudre","terre","ombre","fer","espris"]

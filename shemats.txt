@@ -1,0 +1,23 @@
+C [actif?, nom, propriétées]
+P [porteur, forme, pix1, pix2, arg]
+D0= dobo0, D1= dobo1 Y0= dobo0.yoso, Y1= dobo1.yoso A"xy"= dobo"x".arme"y" 
+[1]='dobo':dobotzu
+[1]='none':un point fixe de coordonnées 0,0
+[1]='traine1': particules reparties en avant sur une trainée de taille [0] à des positions aléatoire
+[1]='traine2': particules reparties en dessus sur une trainée de taille [0] à des positions aléatoire
+
+pressed['space'0,'8'1, '5'2, '6'3, '4'4, 'e'5, 'a'6, 'z', 'q', 's', 'd', '0']
+
+propriétées d'un dobo:
+[x(fload 0.000), y(fload 0.000), z(fload 0.000), d(fload 0.000), vie(float 0.00), stun(int/bool), electricité(int), temperature(int), armure(int/bool)]
+
+cam: cam.d, cam.v, dobo.stun, dobo.En , dobo.Ma
+
+propriétées d'un yoso:
+[x(fload 0.000), y(fload 0.000), z(fload 0.000), d(fload 0.000)]
+
+propriétées d'une arme:
+[x(fload 0.000), y(fload 0.000), z(fload 0.000), d(fload 0.000), v(fload 0.000)]
+
+Trad.pos[[porteur,forme,p1,p2],[p,f,v1,v2]...]
+=> message= "/P,porteur,forme,p1,p1/P,p,f,v1,v2I/..."
